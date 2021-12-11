@@ -1,9 +1,8 @@
-function preload(){
-	img = loadImage("dog_cat.jpg")
-}
+var img;
 function setup(){
 	canvas = createCanvas(640,420);
 	canvas.center();
+	img = createCapture()
 //    ml5class = ml5.imageClassfier
 }
 function draw(){
