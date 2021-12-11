@@ -2,7 +2,7 @@ var img;
 function setup(){
 	canvas = createCanvas(640,420);
 	canvas.center();
-	img = createCapture()
+	img = createCapture(VIDEO)
 //    ml5class = ml5.imageClassfier
 }
 function draw(){
